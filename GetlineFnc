@@ -1,0 +1,24 @@
+
+//sample program for using getline function.
+//AstraCalce
+
+#include <iostream>
+using namespace std;
+
+int main () {
+
+   string name;
+
+   cout << "Enter your name full : ";
+
+   getline (cin, name);
+
+   cout << name;
+
+
+   return 0;
+
+
+}
+
+
