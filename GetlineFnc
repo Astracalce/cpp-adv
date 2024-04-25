@@ -22,3 +22,23 @@ int main () {
 }
 
 
+or 
+
+//using no reutrn type
+
+#include <iostream>
+using namespace std;
+
+void main () {
+
+   string name;
+
+   cout << "Enter your name full : ";
+
+   getline (cin, name);
+
+   cout << name;
+
+}
+
+
